@@ -1,0 +1,47 @@
+body {
+  background-color: #f8f9fa;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.game-list {
+  max-height: 70vh;
+  width: 100%;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 4px;
+}
+.list {
+  max-height: 100%;
+  width: 100%;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 4px;
+}
+h3 {
+  margin-bottom: 20px;
+  color: #343a40;
+}
+
+.MuiFormControl-root {
+  margin-bottom: 16px !important;
+}
+
+/* .game-list {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+} */
+
+h1 {
+  color: #343a40;
+}
+
+.MuiButton-root {
+  text-transform: none !important;
+}
